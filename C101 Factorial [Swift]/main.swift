@@ -10,6 +10,7 @@ let n = 7
 // Add your code below:
 
 //no global variables
+
 func factorial(from n: Int) -> Int {
     print("Calculating factorial(\(n))...")
     if n <= 1 {

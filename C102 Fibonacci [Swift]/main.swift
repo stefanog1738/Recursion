@@ -9,6 +9,7 @@ let n = 7
 
 // Add your code below:
 
+//no global variables
 func fibonacci(n: Int) -> Int {
     print("Calculating fibonacci(\(n))...")
     if n <= 2 {
@@ -20,5 +21,4 @@ func fibonacci(n: Int) -> Int {
         return  goodbye
     }
 }
-
 print("The final result is: \(fibonacci(n: n)).")
